@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formularioAluno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
+    <div>
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cursos.html">cursos</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alunos.html">Alunos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="turmas.html">Turmas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="professores.html">Professores</a>
+            </li>
+          </ul>
+        </div> 
+
     <div>
         <label>Nome completo:</label>
         <input type="text" id="nome" name="Nome"
@@ -29,12 +50,22 @@
         <input type="date" id="dataNascimento" name="dataNascimento"
         required="true">
     </div>
+    
+    <div>
+        <label>Endereço:</label>
+        <input type="text" id="Endereço" name="Endereço"
+        required="true">
+    </div>
 
     <div>
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="limpar" />
+        <input class="btn btn-primary" type="submit" value="Enviar">
+        <input class="btn btn-primary" type="reset" value="Limpar">
     </div>
-    <a href="alunos.html">voltar</a>
+
+    <a href="alunos.html" class="btn btn-secondary" tabindex="-1" role="button" 
+    aria-disabled="true">Voltar</a>
+    
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
