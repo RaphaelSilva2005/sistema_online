@@ -6,6 +6,7 @@
     <title>formularioAluno</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+<link rel="stylesheet" href="CSS/style.css">
 <body>
     <div>
         <ul class="nav nav-underline">
@@ -26,35 +27,26 @@
             </li>
           </ul>
         </div> 
-
-    <div>
-        <label>Nome completo:</label>
-        <input type="text" id="nome" name="Nome"
-        required="true">
-    </div>
-
-    <div>
-        <label>E-mail:</label>
-        <input type="email" id="email" name="email"
-        required="true">
-    </div>
-
-    <div>
-        <label>Número para contato:</label>
-        <input type="number" id="numero" name="numero"
-        required="true">
-    </div>
-
-    <div>
-        <label>Data de Nascimento:</label>
-        <input type="date" id="dataNascimento" name="dataNascimento"
-        required="true">
-    </div>
+     <h1 class="text">Formulário dos Alunos</h1>
     
     <div>
-        <label>Endereço:</label>
-        <input type="text" id="Endereço" name="Endereço"
-        required="true">
+      <input class="form-control form-control-lg" type="text" placeholder="Nome completo" aria-label=".form-control-lg example">
+    </div>
+
+    <div>
+      <input class="form-control form-control-lg" type="email" placeholder="E-mail" aria-label=".form-control-lg example">
+    </div>
+
+    <div>
+      <input class="form-control form-control-lg" type="text" placeholder="Endereço" aria-label=".form-control-lg example">
+    </div> 
+    
+    <div>
+      <input class="form-control form-control-lg" type="number" placeholder="Numero para contato" aria-label=".form-control-lg example">
+    </div>
+
+    <div>
+      <input class="form-control form-control-lg" type="date" placeholder="Data de Nascimento" aria-label=".form-control-lg example">
     </div>
 
     <div>

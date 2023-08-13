@@ -1,4 +1,29 @@
+
 .text{
-    color: dimgray;
-    font-size: x-large;
+    font-size: xx-large;
+    color: grey;
+    font-style:initial ;
+    text-align: center;
+}
+
+.nav-link{
+    color: grey;
+}
+
+.btn{
+    color:ghostwhite;
+}
+.table{
+    font-size: medium;
+    font-style: inherit;
+}
+
+.form-control{
+    border-radius: 1cm;
+    width:min-content;
+}
+
+.form-select{
+    border-radius: 1cm;
+    width:min-content;
 }
